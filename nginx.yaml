@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod #create a pod
+metadata:
+  name: another-nginx-pod
+  namespace: devops
+spec:
+  containers:
+  - name: another-nginx-container #create a container
+    image: nginx:latest #using this image
