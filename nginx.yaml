@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: Pod #create a pod
 metadata:
-  name: another-nginx-pod
-  namespace: devops
+  name: python-pod
 spec:
   containers:
-  - name: another-nginx-container #create a container
-    image: nginx:latest #using this image
+  - name: python-container #create a container
+    image: 525212/weekdayoctoberbatch:1.0
