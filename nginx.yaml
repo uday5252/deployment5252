@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Pod #create a pod
-metadata:
-  name: python-pod
-spec:
-  containers:
-  - name: python-container #create a container
-    image: 525212/weekdayoctoberbatch:1.0
